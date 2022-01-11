@@ -1,27 +1,23 @@
 {
   "title": "Learning Git",
-  "description": "Scenario to help you learn git",
+  "description": "Scenario to help you learn git with full interactive vscode instance.",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "",
         "text": "step1.md"
       }
-    ],
-    "intro": {
-      "text": "intro.md"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
+    ]
   },
   "environment": {
-    "hidefinish": true,
-    "uilayout": "vscode-terminal-split"
+    "uieditorpath": "~",
+    "showide": true,
+    "idePort": 23000,
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu:1804"
+      "imageid": "ubuntu:2004"
   }
 }
