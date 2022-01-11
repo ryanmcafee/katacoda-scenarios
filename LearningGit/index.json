@@ -22,6 +22,6 @@
     "uilayout": "vscode-terminal-split"
   },
   "backend": {
-    "imageid": "git"
+    "imageid": "ubuntu:1804"
   }
 }
