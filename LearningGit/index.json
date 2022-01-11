@@ -12,10 +12,10 @@
     ]
   },
   "environment": {
-    "uieditorpath": "~",
+    "uieditorpath": "/root/example",
     "showide": true,
     "idePort": 23000,
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
       "imageid": "ubuntu:2004"
